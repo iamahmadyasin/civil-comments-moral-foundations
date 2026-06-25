@@ -1,0 +1,28 @@
+# Jupyter
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# Data files
+# Keep small CSVs but ignore anything large
+data/*.zst
+data/*.json
+data/*.parquet
+
+# Windows system files
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Editor clutter
+.vscode/settings.json
+*.swp
+*.swo
