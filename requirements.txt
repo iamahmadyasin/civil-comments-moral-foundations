@@ -1,0 +1,14 @@
+datasets
+transformers
+torch
+pymc
+arviz
+pandas
+scikit-learn
+matplotlib
+seaborn
+numpy
+jupyter
+mysql-connector-python
+zstandard
+sqlalchemy
