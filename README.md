@@ -40,7 +40,7 @@ authority, purity)?
 
 ## Dataset
 
-**Google Civil Comments** — 1.8 million real online comments with 
+**Google Civil Comments:** 1.8 million real online comments with 
 human-annotated toxicity scores from 0.0 to 1.0, covering six dimensions: 
 toxicity, severe toxicity, obscenity, threat, insult, and identity attack.
 
@@ -88,31 +88,18 @@ Convergence confirmed by R-hat < 1.01 across all parameters.
 
 ## Project Structure
 ├── notebooks/
-
 │   ├── 01_data_exploration.ipynb        # Data loading and EDA
-
 │   ├── 02_moral_foundations.ipynb # NLP scoring pipeline (run on Colab)
-
 │   ├── 03_bayesian_model.ipynb          # Hurdle model (run on Colab)
-
 │   └── 04_visualization.ipynb          # Summary figures
-
 ├── src/
-
 │   └── config.py                        # Paths and settings
-
 ├── data/
-
 │   ├── 01_score_summary
-
 │   └── 02_civil_comments_with_mf_scores.csv  # Enriched dataset
-
 ├── outputs/
-
 │   └── figures/                           # All saved charts
-
 ├── requirements.txt
-
 └── README.md
 ---
 
