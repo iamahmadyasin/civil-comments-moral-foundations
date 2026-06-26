@@ -101,6 +101,7 @@ Convergence confirmed by R-hat < 1.01 across all parameters.
 │   └── figures/                           # All saved charts
 ├── requirements.txt
 └── README.md
+
 ---
 
 ## Reproducing This Project
